@@ -23,6 +23,6 @@ def morse_to_message(message)
   sentence = ''
   message_array = message.split('   ')
   message_array.each { |section| sentence += " #{morse_to_word(section)}" }
-  sentence
+  sentence.strip
 end
 puts morse_to_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
