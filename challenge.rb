@@ -12,4 +12,17 @@ def morse_to_letter(morse)
   letter
 end
 
+def morse_to_word(phrase)
+  word = ''
+  phrase_array = phrase.split
+  phrase_array.each { |section| word += morse_to_letter(section) }
+  word
+end
 
+def morse_to_message(message)
+  sentence = ''
+  message_array = message.split('   ')
+  message_array.each { |section| sentence += " #{morse_to_word(section)}" }
+  sentence
+end
+puts morse_to_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
