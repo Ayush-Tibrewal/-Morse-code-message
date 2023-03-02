@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Vet Clinic Database ](#-vet-clinic-database-)
+- [📖 Decode a Morse code message ](#-decode-a-morse-code-message-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -21,18 +21,19 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Vet Clinic Database <a name="about-project"></a>
+# 📖 Decode a Morse code message <a name="about-project"></a>
 
-**Vet Clinic Database** is an SQL project where one can create a database, create a table, populate the table and querry the table.
+**Decode a Morse code message** is an application that can be used to decode sentences weitten in morse to
+words in the alphabet.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<summary>Database</summary>
+<summary>Server</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://guides.rubyonrails.org/getting_started.html">Ruby</a></li>
   </ul>
 </details>
 
@@ -40,10 +41,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Create a database**
-- **Create a table**
-- **Populate the table**
-- **Query the table**
+- **Decode morse code**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,8 +60,8 @@
 To get a local copy up and running, follow these steps:
 - Create a local directory where you can clone the project
 - Clone the project to your directory by running
-  - `git clone https://github.com/leehaney254/vet-clinic.git`
-- Run all the command in the terminal or pgAdmin.
+  - `https://github.com/houdamzari/-Morse-code-message.git`
+- Run the code with ruby
 
 ### Prerequisites
 
@@ -71,7 +69,7 @@ In order to run this project you need:
 
 - Git and GitHub
 - A code editor
-- PostgresSQL
+- Ruby
 
 ### Setup
 
@@ -79,13 +77,13 @@ Clone this repository to your desired folder:
 
 - Create a local directory where you can clone the project
 - Clone the project to your directory by running
-  - `git clone https://github.com/leehaney254/vet-clinic.git`
+  - `https://github.com/houdamzari/-Morse-code-message.git`
 
 ### Install
 
 Install this project with:
 
-- PostgresSQL.
+- Ruby
 
 
 ## 👥 Authors <a name="authors"></a>
@@ -108,8 +106,7 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Populate db**
-- [ ] **Add querries**
+- [ ] **Decode morse code**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
